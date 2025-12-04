@@ -196,7 +196,7 @@ class ResultScreen extends StatelessWidget {
                   ),
                 ),
                 const SizedBox(height: 30),
-                // Restart button
+              
                 ElevatedButton(
                   onPressed: onRestartQuiz,
                   style: ElevatedButton.styleFrom(

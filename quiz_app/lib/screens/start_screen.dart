@@ -22,7 +22,7 @@ class StartScreen extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            // Question marks
+            
             const Icon(
               Icons.quiz,
               size: 120,
@@ -38,7 +38,7 @@ class StartScreen extends StatelessWidget {
               ),
             ),
             const SizedBox(height: 60),
-            // Start Quiz Button
+           
             ElevatedButton(
               onPressed: onStartQuiz,
               style: ElevatedButton.styleFrom(

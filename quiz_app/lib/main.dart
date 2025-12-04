@@ -64,7 +64,7 @@ class _QuizHomeState extends State<QuizHome> {
     String resultId = 'result_${DateTime.now().millisecondsSinceEpoch}';
 
     for (int i = 0; i < questions.length; i++) {
-      
+
       final question = questions[i];
       final selectedAnswerId = selectedAnswerIds[i];
       
@@ -141,3 +141,4 @@ class _QuizHomeState extends State<QuizHome> {
     }
   }
 }
+
