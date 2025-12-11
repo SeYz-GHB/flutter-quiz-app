@@ -5,7 +5,13 @@ class Result {
   final double percentage;
   final DateTime completedAt;
 
-  Result({required this.resultId, required this.score, required this.totalQuestions, required this.percentage, required this.completedAt});
+  Result({
+    required this.resultId,
+    required this.score,
+    required this.totalQuestions,
+    required this.percentage,
+    required this.completedAt,
+  });
 
   String getGrade() {
     if (percentage >= 90) return 'A';

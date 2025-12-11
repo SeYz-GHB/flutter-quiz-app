@@ -37,7 +37,6 @@ class _QuestionScreenState extends State<QuestionScreen> {
     }
   }
 
-
   List<Answer> getAnswersForQuestion() {
     final currentQuestion = widget.questions[currentQuestionIndex];
     return widget.answers.where((answer) => answer.questionId == currentQuestion.questionId).toList();
